@@ -11,7 +11,7 @@
     "lint": "eslint 'src/**/*.js'",
     "test": "jest",
     "preversion": "yarn clear & yarn build",
-    "postinstall": "yarn && yarn build"
+    "install": "yarn && yarn build"
   },
   "keywords": [
     "react",
